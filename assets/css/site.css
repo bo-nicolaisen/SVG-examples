@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+body{
+     font-family:"Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#buttonContainer {
+  display: grid;
+  grid-template-columns: auto 60% auto;
+  min-width: 400px;
+}
+
+
+
+
+
+.circleHover:hover circle {
+  fill: rgb(183, 124, 251);
+}
+
+/* #fourCircle:hover {
+  fill: rgb(126, 15, 236);
+}
+
+#threeCircle:hover {
+  fill: rgb(126, 15, 236);
+}
+#twoCircle:hover {
+  fill: rgb(126, 15, 236);
+}
+#oneCircle:hover {
+  fill: rgb(126, 15, 236);
+} 
+
+#buttons {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
